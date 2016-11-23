@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE manifest [
+        <!ELEMENT manifest (uses-permission|application)*>
+        <!ATTLIST manifest
+                xmlns:android CDATA #REQUIRED
+                xmlns:ndroid CDATA #REQUIRED
+                package CDATA #REQUIRED
+                xmlns:xsi CDATA #REQUIRED
+                xsi:schemaLocation CDATA #REQUIRED>
+        <!ELEMENT uses-permission (#PCDATA)>
+        <!ATTLIST uses-permission
+                android:name CDATA #REQUIRED>
+        <!ELEMENT application (service|meta-data|activity)*>
+        <!ATTLIST application
+                android:name CDATA #REQUIRED
+                android:allowBackup CDATA #REQUIRED
+                android:icon CDATA #REQUIRED
+                android:label CDATA #REQUIRED
+                android:supportsRtl CDATA #REQUIRED
+                android:theme CDATA #REQUIRED>
+        <!ELEMENT service (#PCDATA)>
+        <!ATTLIST service
+                android:enabled CDATA #REQUIRED
+                android:name CDATA #REQUIRED>
+        <!ELEMENT meta-data (#PCDATA)>
+        <!ATTLIST meta-data
+                android:name CDATA #REQUIRED
+                android:value CDATA #REQUIRED
+                android:noHistory CDATA #REQUIRED>
+        <!ELEMENT activity (intent-filter)*>
+        <!ATTLIST activity
+                android:configChanges CDATA #IMPLIED
+                android:label CDATA #IMPLIED
+                android:name CDATA #REQUIRED
+                android:screenOrientation CDATA #REQUIRED
+                android:theme CDATA #IMPLIED
+                ndroid:theme CDATA #IMPLIED>
+        <!ELEMENT intent-filter (action|category)*>
+        <!ELEMENT action (#PCDATA)>
+        <!ATTLIST action
+                android:name CDATA #REQUIRED>
+        <!ELEMENT category (#PCDATA)>
+        <!ATTLIST category
+                android:name CDATA #REQUIRED>
+        ]>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:ndroid="http://schemas.android.com/apk/res-auto"
+          package="com.backspace.teenpatti" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://schemas.android.com/apk/res/android ">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <application
+            android:name=".MyApplication"
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <service
+                android:enabled="true"
+                android:name="com.backspace.teenpatti.service.BackgroundSoundService"/>
+        <meta-data
+                android:name="com.facebook.sdk.ApplicationId"
+                android:value="@string/facebook_app_id"
+                android:noHistory="true"/>
+
+        <activity
+                android:name=".main.Splash"
+                android:label="@string/app_name"
+                android:screenOrientation="portrait"
+                ndroid:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".main.MainActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".main.TeenPatti"
+                  android:screenOrientation="landscape"/>
+
+        <activity android:name="com.facebook.FacebookActivity"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize"
+                  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+                  android:label="@string/app_name"/>
+    </application>
+
+
+</manifest>

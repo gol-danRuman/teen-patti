@@ -1,0 +1,208 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:id="@+id/settingMain"
+    android:background="@color/background">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/setting_player_name"
+        android:textColor="@color/text_icons"
+        android:id="@+id/nameTextView"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/nameTextView"
+        android:id="@+id/firstLinearLayout">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Player 1"
+                android:id="@+id/editTextPlayer1" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Player 2"
+                android:id="@+id/editTextPlayer2" />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/secondLinearLayout"
+        android:layout_below="@id/firstLinearLayout">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Player 3"
+                android:id="@+id/editTextPlayer3" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Player 4"
+                android:id="@+id/editTextPlayer4" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <!--creating a divider for playername and setting section-->
+    <View style="@style/Divider"
+        android:layout_below="@id/secondLinearLayout"
+        android:id="@+id/view" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_icons"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/setting_setting"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/secondLinearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="38dp" />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/setting_Connection"
+            android:id="@+id/textView3"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <com.facebook.login.widget.LoginButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/connectToFacebook"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/view"
+            android:layout_alignEnd="@+id/view" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/setting_music"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/connectToFacebook"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch_music"
+        android:checked="true"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_alignRight="@+id/connectToFacebook"
+        android:layout_alignEnd="@+id/connectToFacebook"
+        android:layout_alignBaseline="@id/textView4"
+        android:layout_toEndOf="@+id/textView6"
+        android:layout_toRightOf="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/setting_Sound"
+        android:id="@+id/textView5"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/switch_music"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch_sound"
+        android:checked="true"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_alignRight="@+id/switch_music"
+        android:layout_alignEnd="@+id/switch_music"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/setting_Notify_me"
+        android:id="@+id/textView6"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/switch_sound"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch_notify_me"
+        android:checked="true"
+        android:layout_alignTop="@+id/textView6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textView7"
+        android:layout_above="@+id/firstLinearLayout"
+        android:layout_toRightOf="@+id/nameTextView"
+        android:layout_toEndOf="@+id/nameTextView"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/details"
+        android:layout_alignRight="@+id/view"
+        android:layout_alignEnd="@+id/view"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignLeft="@+id/connectToFacebook"
+        android:layout_alignStart="@+id/connectToFacebook" />
+
+</RelativeLayout>

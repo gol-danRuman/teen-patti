@@ -1,0 +1,156 @@
+<resources>
+    <!--String for app theme-->
+    <string name="app_name">Teen Patti</string>
+
+    <!--string for activity_player_mode-->
+    <string name="title_activity_player_mode">Select Mode :</string>
+    <string name="single_player">Single Player</string>
+    <string name="multiplayer">Multiplayer</string>
+
+    <!--string for navigatio drawer-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Setting</string>
+
+    <!--String for fragment_setting-->
+    <string name="setting_player_name">Player Name :</string>
+    <string name="setting_setting">Setting :</string>
+    <string name="setting_Connection">Connection</string>
+    <string name="setting_Sound">Sound</string>
+    <string name="setting_music">Music</string>
+    <string name="setting_Notify_me">Notify me</string>
+
+    <!--String for loading section -->
+    <string-array name="loading">
+        <item>Identifying Device</item>
+        <item>Fixing issues</item>
+        <item>Building gradle</item>
+        <item>Data importing</item>
+        <item>Accessing Storage</item>
+        <item>Creating directory</item>
+        <item>Loading graphics</item>
+        <item>Optimizing performance</item>
+        <item>Managing components</item>
+        <item>Setting up background music</item>
+        <item>Importing images</item>
+        <item>Creating database</item>
+        <item>Testing all components</item>
+    </string-array>
+
+    <!--String for Facebook connection-->
+    <string name="facebook_app_id">1608541152504772</string>
+
+    <!--String for facts-->
+    <string name="facts_title">Facts About Cards</string>
+    <string name="facts">1.\tThere are fifty-two cards in a deck and fifty-two weeks in a year.\n\n2.\tConsider Ace as 1, Jack as 11, Queen as 12, and King as 13. If you add up all fifty-two cards in the deck you’ll get 364, plus one for a Joker is 365, the number of days in a year.\n\n3.\tThe four suits means four seasons. Hearts♥ = Spring Clubs♣ = Summer Diamonds♦ = Fall Spades♠ = Winter\n\n4.\tAn interesting fact about a deck of playing cards is that usually playing cards have differentiable patterns on the backs of the cards. Unless the cards have advertising or pictures on the backs, that is. Each card manufacturer has their own unique pattern they place on their cards.\n\n5.\tCardstacking” is a favorite pastime for many people. A man named Bryan Berg has turned this pastime into a career. He earned the Guinness World Record for the “world’s tallest card tower” in 1992. Since then, Berg has won even more honors for building higher towers. His highest to date measured 25 feet, 3.5 inches. Bryan Berg used 2,400 decks of playing cards to build this huge tower with.\n\n6.\tAn interesting fact about playing cards is that specially-constructed decks were sent to American soldiers who were being held in German camps during World War II. The United States Playing Card Company collaborated with the government in the production of these cards. What made these cards so unique was, once they became wet, they peeled apart. Inside, the prisoners found parts of maps that would lead them to freedom.\n\n7.\tThere are thirteen cards in each of the four suits, corresponding to the 13 lunar months in a year. Fifty-two cards correspond to fifty-two weeks in a year.\n\n8.\tHearts correspond to the element of water, and signify love, friendship, happiness, and domestic concerns. Generally speaking, they are “happy” cards.\n\nClubs correspond to the element of fire, and generally signify business, ambition, and achievement issues. They generally indicate success and happiness.\n\nDiamonds correspond to the element of earth, and generally signify career, and money issues.\n\nSpades correspond to the element of air, and generally signify gossip, challenges, messages, and upsets.\n\n9.\tThe king of hearts is the only king without a mustache.\n\n10.\tA standard deck of playing cards consists of 52 cards, of which there are four suits – two red, which are diamonds and hearts and two black, which are clubs and spades.\n\n11.\tThe colored suits of the cards represent day and night.\n\n12.\tThe four suits consist of 13 cards each. They represent the four quarters of the year, which have 13 weeks each.\n\n13.\tThe four suits also represent the four phases of the moon, which are new, first quarter, full and waning or last quarter.\n\n14.\tIt is believed, but not proven, that playing cards originated in Asia around the 10th century.\n\n15.\tThe French derived today’s deck of playing cards.\n\n16.\tAmericans brought the Joker into the deck of cards sometime around the 1870s. At that time it was used for the highest “Bower” when playing Euchre.\n\n17.\tIn the late 18th and early 19th century, the back of a deck of cars was used as an advertising media for products and services. The cards also bore the image of famous landmarks and travel destinations.\n\n18.\tCards came to America with British Colonists and have been popular ever since. The varnished or high gloss finish that we know today was derived in America to ease shuffling. Square corners became round to prevent wear on the cards. Court cards – the Jack, Queen and King, became double headed to prevent the player from having to turn the cards right side up when they were dealt.\n\n\n</string>
+
+    <!--String for FAQ-->
+    <string name="faq_title">Frequently Asked Questions</string>
+        <!--QN no 1-->
+    <string name="qn_1">1. &#09; What is Teen Patti</string>
+    <string name="ans_1">Teen patti (<b> तीन पत्ती, </b> meaning \'three cards\' in English) (also known as flash or flush) is a gambling card game that originated in the Indian Subcontinent. The game, which is actually a simplified version of poker, is popular throughout South Asia. Boats out of India call it "flush" to escape any legal negativity surrounding the game where it is played legally.</string>
+    <!--QN no 2-->
+    <string name="qn_2">2.&#09;How many player can play this game together ?&#09;</string>
+    <string name="ans_2">Well, Mostly we found 4 players playing this game, But It can be played From 2 to 17 players.</string>
+    <!--QN no 3-->
+    <string name="qn_3">3. &#09; When I play Teen Patti, it shows that my device has low memory.</string>
+    <string name="ans_3">When you play Teen Patti, a lot of information is continuously stored on your phone. This requires spare memory in your phone.  Try this:
+1. Install the latest version of Teen Patti,\n
+2. Delete some apps that you do  not require,\n
+3. When using Teen Patti make sure to stop apps running in the background.\n
+If the problem is not solved, please understand that your device has low memory, there is hardly anything we can do.</string>
+    <!--QN no 4-->
+    <string name="qn_4">4. &#09;I am always loosing. It seems that dealer always gives me weak cards.</string>
+    <string name="ans_4">Well, it\'s really unfortunate that you\'re always ending up on the losing side. However, we would like to bring into your notice that card distribution on Teen Patti is completely random.</string>
+    <!--QN no 5-->
+    <string name="qn_5">5. &#09; What are the best hands in Teen Patti?</string>
+    <string name="ans_5">Please see Guide page From left Drawer</string>
+    <!--QN no 6-->
+    <string name="qn_6">6. &#09; Can I play online With my Friends</string>
+    <string name="ans_6"> Its so shame to told you about we doesn\'t have such facilities but we promised you to bring that in next version.</string>
+
+    <!--QN no 6-->
+    <string name="qn_7">7. &#09; Can we choose a joker in Teen Patti?</string>
+    <string name="ans_7"> Sorry, Teen Patti does not have any option to pick a joker. The fate of your hand completely depends upon the rankings of the three cards dealt to you, your skills and Sir, this is What I have fetched from judgement.</string>
+
+    <!--QN no 7-->
+    <string name="qn_8">8. &#09;  I have lost my chips. How can I get free chips?</string>
+    <string name="ans_8">We give free 180 chips every hour; chips are sent automatically. Login first time with facebook will also provide 500 chips. And you also get free chips by wining the bet against another player. you do not need chips for multiplayer mode.</string>
+    <!--QN no 9-->
+    <string name="qn_9">9. &#09;  I lost … chips due to some error in Teen Patti or its server. Please give me the chips  back.</string>
+    <string name="ans_9">There can be many reasons for this problem. It can be due your phone or the internet connection. Our Teen Patti is a very stable app and we work 24/7 to keep our servers working. Even if the fault happened due to Teen Patti or its servers, you must take it as a part of the game. We do not compensate any user.</string>
+    <!--QN no 10-->
+    <string name="qn_10">10. &#09; I am fond to play teen patti. But due to loss of every chips, i want to Buy chips. How to buy chips?</string>
+    <string name="ans_10">Now we does not have such facilities to buy chips online. But very soon we will bring to you.</string>
+    <!--QN no 11-->
+    <string name="qn_11">11. &#09; What are the best hands in Teen Patti?</string>
+    <string name="ans_11">Please see Guide page From left Drawer</string>
+    <!--QN no 12-->
+    <string name="qn_12">12. &#09; What are the best hands in Teen Patti?</string>
+    <string name="ans_12">Please see Guide page From left Drawer</string>
+    <!--QN no 13-->
+    <string name="qn_13">13. &#09; What are the best hands in Teen Patti?</string>
+    <string name="ans_13">Please see Guide page From left Drawer</string>
+    <!--QN no 14-->
+    <string name="qn_14">14. &#09; What are the best hands in Teen Patti?</string>
+    <string name="ans_14">Please see Guide page From left Drawer</string>
+    <!--QN no 15-->
+    <string name="qn_15">15. &#09; What are the best hands in Teen Patti?</string>
+    <string name="ans_15">Please see Guide page From left Drawer</string>
+    <!--QN no 16-->
+    <string name="qn_16">16. &#09; What are the best hands in Teen Patti?</string>
+    <string name="ans_16">Please see Guide page From left Drawer</string>
+    
+    
+
+
+
+
+    <!--String for About app-->
+    <string name="about_app_title">About Teen Patti</string>
+
+    <!--String for Developer-->
+    <string name="developer_title">Developer</string>
+    <!--String for highScore-->
+    <string name="high_score">Top player</string>
+
+    
+    <!--String for Guide-->
+    <string name="guide_title">Guide to Play</string>
+    <string name="guide_summary">Each player contributes the boot money and gets three cards facedown. Now it is the turn of the player next to the dealer in clockwise direction. The user has option to place a bet without seeing the cards (blind) or see the card. When the user sees his card, he/she can play chaal or may have other options depending upon the progress of the games. A player who places a blind bet is referred to as the blind user. A player who places his bet after seeing the cards is referred to as the seen player.</string>
+    <string name="guide1"><b>Teen Patti </b>is a popular Indian gambling card game just like poker. It is normally played in a group of 3 to 6 persons and uses a 52-card pack without jokers. Each player is dealt three cards face down. Before the cards are dealt, the boot amount is decided and collected from each player. The boot amount is the minimum stake amount put in the pot, which is the money kept in the centre of the table. As the game progresses the pot money grows and is won by the winner of that hand. Winner is the player who remains in the game till the completion of the hand and has the best hand or the highest hand based on the cards ranking shown below.\n\n
+
+<b>Ranking of the cards from high to low is:</b>\n
+1. Trail or Set (three of same rank),\n
+2. Pure sequence,\n
+3. Sequence (or run),\n
+4. Color,\n
+5. Pair (two cards of same rank), and\n
+6. High Card.\n\n
+The figure below shows highest to lowest cards of each rank. It should be noted that in a sequence A-K-Q is the highest ranked sequence while A-2-3 is the second highest ranked sequence.\n\n
+    </string>
+    <string name="guide_1.1"><b>1. Trail or set (three of same rank)</b></string>
+    <string name="guide_1.2">2. Pure Sequence</string>
+    <string name="guide_1.3">3. Sequence (run)</string>
+    <string name="guide_1.4">4. Colors</string>
+    <string name="guide_1.5">5. Pair (two cards of same rank)</string>
+    <string name="guide_1.6">6. High Card or senior patti</string>
+    <string name="guide2">
+        <b>Playing Teen Patti.  </b>Each player contributes the boot money and gets three cards facedown. Now it is the turn of the player next to the dealer in clockwise direction. The player has option to place a bet without seeing the cards (blind) or see the card. When the player sees his card, he/she can play chaal or may have other options depending upon the progress of the game. A player who places a blind bet is referred to as the blind player. A player who places his bet after seeing the cards is referred to as the seen player.\n\n
+        <b>Blind Player.  </b>To be blind player, you must not see your cards. You have options to play Pack, Blind and Show if available. To play Blind put the bet amount in the pot. The Blind bet amount is equal to the current stake amount or twice the current stake amount.  The current stake amount, in case of the first player, is the boot amount. Thus if the first player is a blind player, the player must bet amount equal to the boot amount or twice the boot amount.\n\n
+        <b>Stake Amount. </b>The bet placed by a blind player becomes the stake amount for the next player while half of the bet placed by a seen player becomes the stake amount for the next player. In case of the next blind players, the bet amount can be equal to the stake amount or twice the stake amount.\n\n
+        A blind player can ask for a Show only when there is one opponent remaining in the game. This is a blind show. After asking for show, the cards of both the players become visible and the winner gets the pot.\n\n
+        <b>Seen Player. </b>A seen player can play Chaal, Pack or may have other options. The other options that may be available to the seen player are Show and Side Show. Once you have seen your cards, to remain in the game, you must play chaal unless you select any other available option.\n\n
+        <b>(a) Chaal. </b>To remain in the game, a seen player must play Chaal or Side Show if available. For chaal the player must put the bet amount in the bot. The bet amount for a seen player is equal to twice or four times the current stake amount. If the previous player is a blind player, the stake amount for next player is amount bet by the player. If the previous player is a seen player, the stake amount for next player is half the amount bet by the player.\n\n
+        <b>(b) Side Show. </b>A seen player can ask for a Side Show. Side Show means that you wish to compare your cards with the cards of the previous player. You can do this only if the previous  player is also a seen player and there are one or more other players still in the game. For Side Show you put amount equal to twice the current stake in the pot. Your request for the Side Show is conveyed to the previous player. The previous player has option to accept or deny your Side Show request.\n\n
+        If your Side Show request is accepted and the previous player has better cards than you, you must pack. If your cards are better than the previous player, the previous player must pack. After one of you have packed, the turn passes on to the next player.\n\n
+        If your Side Show request is denied, you do not see each other’s cards and both of you remain in the game and the turn passes on to the next player.\n\n
+</string>
+
+    <string-array name="numberOfPlayerPicker">
+        <item>Two Players</item>
+        <item>Three Players</item>
+        <item>Four Players</item>
+    </string-array>
+
+</resources>

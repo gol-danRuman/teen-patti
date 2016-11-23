@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainLayout"
+    android:background="@color/background"> <!--  background image is used as wooden background-->
+    <!--top banner image is used-->
+    <!--second banner image as card background-->
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/single_player"
+            style="@style/button_text"
+            android:id="@+id/singlePlayerButton"
+            android:background="@drawable/red_button"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:onClick="onClickMode" /> <!--Button for single player mode-->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multiplayer"
+            style="@style/button_text"
+            android:id="@+id/mulPlayerButton"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/singlePlayerButton"
+            android:background="@drawable/red_button"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:onClick="onClickMode" />
+
+    <!--  button for multiplayer mode -->
+
+</RelativeLayout>

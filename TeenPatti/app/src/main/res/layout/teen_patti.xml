@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+    <!--bootom Three cards for first Player STARTS HERE-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/p11"
+        android:src="@drawable/back"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/p32"
+        android:layout_toEndOf="@+id/p32"
+        android:layout_marginBottom="@dimen/margin_of_non_rotated_cards"
+        android:layout_marginLeft="@dimen/margin_of_non_rotated_cards"
+        android:layout_marginStart="@dimen/margin_of_non_rotated_cards"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/p12"
+        android:src="@drawable/back"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_of_non_rotated_cards"
+        android:layout_toLeftOf="@+id/p11"
+        android:layout_toStartOf="@+id/p11" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/p10"
+        android:src="@drawable/back"
+        android:layout_marginBottom="@dimen/margin_of_non_rotated_cards"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/p12"
+        android:layout_toStartOf="@+id/p12"
+        android:layout_marginRight="@dimen/margin_of_non_rotated_cards"
+        android:layout_marginEnd="@dimen/margin_of_non_rotated_cards" />
+    <!--Bottom three cards for first player ENDS HERE-->
+
+    <!--Right Three cards for Second Player STARTS HERE-->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/p21"
+        android:src="@drawable/back"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/margin_of_rotated_cards"
+        android:layout_centerVertical="true"
+        android:rotation="90"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/p20"
+        android:src="@drawable/back"
+        android:rotation="90"
+        android:layout_below="@+id/play"
+        android:layout_alignRight="@+id/p21"
+        android:layout_alignEnd="@+id/p21" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/p22"
+        android:src="@drawable/back"
+        android:rotation="90"
+        android:layout_above="@+id/play"
+        android:layout_alignLeft="@+id/p21"
+        android:layout_alignStart="@+id/p21" />
+
+    <!--Right Three cards for Second Player ENDS HERE-->
+
+    <!--Top Three cards for Third Player STARTS HERE-->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/p32"
+        android:src="@drawable/back"
+        android:layout_marginTop="@dimen/margin_of_non_rotated_cards"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/p31"
+        android:src="@drawable/back"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/p32"
+        android:layout_alignLeft="@id/p11"
+        android:layout_marginTop="@dimen/margin_of_non_rotated_cards"
+        android:layout_toEndOf="@+id/p32" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/p30"
+        android:src="@drawable/back"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/margin_of_non_rotated_cards"
+        android:layout_alignLeft="@+id/p10"
+        android:layout_alignStart="@+id/p10" />
+
+    <!--Top Three cards for Third Player ENDS HERE-->
+
+
+    <!--Left Three cards for Fourth Player STARTS HERE-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/p41"
+        android:src="@drawable/back"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_of_rotated_cards"
+        android:rotation="90"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/p40"
+        android:src="@drawable/back"
+        android:rotation="90"
+        android:layout_alignLeft="@id/p41"
+        android:layout_alignTop="@id/p20"
+        android:layout_marginLeft="@dimen/margin_of_rotated_cards"
+        android:layout_below="@id/p41"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/p42"
+        android:layout_marginLeft="@dimen/margin_of_rotated_cards"
+        android:src="@drawable/back"
+        android:rotation="90"
+        android:layout_alignTop="@id/p22"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+    <!--Left Three cards for Fourth Player ENDS HERE-->
+
+
+    <!--Button for starting the game-->
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/play"
+    android:drawableTop="@drawable/play"
+    android:text="Play"
+    android:drawablePadding="5dp"
+    android:minHeight="0dp"
+    android:minWidth="0dp"
+    android:background="@android:color/transparent"
+    android:includeFontPadding="false"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    />
+    <!--Button for showing individual cards and declaring winner-->
+
+
+
+</RelativeLayout>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_nav">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <!--Qn no 1-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/qn_1"
+                android:textStyle="bold"
+                android:textColor="@color/text_icons" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ans_1"
+                android:paddingTop="8dp"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="8dp"/>
+            <!--Qn no 2-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/qn_2"
+                android:textStyle="bold"
+                android:textColor="@color/text_icons"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ans_2"
+                android:paddingTop="8dp"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="8dp"/>
+            <!--Qn no 3-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/qn_3"
+                android:textStyle="bold"
+                android:textColor="@color/text_icons" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ans_3"
+                android:paddingTop="8dp"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="8dp"/>
+            <!--Qn no 4-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/qn_4"
+                android:textStyle="bold"
+                android:textColor="@color/text_icons" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ans_4"
+                android:paddingTop="8dp"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="8dp"/>
+            <!--Qn no 5-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/qn_5"
+                android:textStyle="bold"
+                android:textColor="@color/text_icons" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ans_5"
+                android:paddingTop="8dp"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="8dp"/>
+            <!--Qn no 6-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/qn_6"
+                android:textStyle="bold"
+                android:textColor="@color/text_icons" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ans_6"
+                android:paddingTop="8dp"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="8dp"/>
+            <!--Qn no 7-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/qn_7"
+                android:textStyle="bold"
+                android:textColor="@color/text_icons" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ans_7"
+                android:paddingTop="8dp"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="8dp"/>
+            <!--Qn no 8-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/qn_8"
+                android:textStyle="bold"
+                android:textColor="@color/text_icons" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ans_8"
+                android:paddingTop="8dp"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="8dp"/>
+            <!--Qn no 9-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/qn_9"
+                android:textStyle="bold"
+                android:textColor="@color/text_icons" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ans_9"
+                android:paddingTop="8dp"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="8dp"/>
+            <!--Qn no 10-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/qn_10"
+                android:textStyle="bold"
+                android:textColor="@color/text_icons" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ans_10"
+                android:paddingTop="8dp"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="25dp"/>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
